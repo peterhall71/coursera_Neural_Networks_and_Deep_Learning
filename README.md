@@ -39,7 +39,7 @@ The same is done with y, however, this results in a matrix with one row of (0,1)
 In logistic regression y is equal to the sigmoid function of wTx + b. The sigmoid function of the standard linear regression model.
 
 <p align="center">
-<img src="https://github.com/peterhall71/salamander/blob/master/images/salamander_prototype.JPG" alt="Sigmoid Function" width="400"/>
+<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/sigmoid_function.png" alt="Sigmoid Function" width="400"/>
 </p>
 <p align="center">
 Sigmoid Function
