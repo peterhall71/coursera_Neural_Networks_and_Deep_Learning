@@ -44,3 +44,4 @@ In logistic regression y is equal to the sigmoid function of wTx + b. The sigmoi
 <p align="center">
 Sigmoid Function
 </p>
+
