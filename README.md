@@ -1,6 +1,6 @@
 <center>
-# Neural Networks and Deep Learning
-### deeplearning.ai
+# Neural Networks and Deep Learning  
+### deeplearning.ai  
 </center>
 <BR>
 
