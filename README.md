@@ -1,7 +1,5 @@
-<center>
 # Neural Networks and Deep Learning  
-### deeplearning.ai  
-</center>
+### deeplearning.ai
 <BR>
 
 ### Course Outline
@@ -56,3 +54,19 @@ Derivatives are the slope of a function at any given point on the function. The 
 
 #### Python and Vectorization
 
+Vectorization is removing explicit for loops in code. Working with large datasets can be very slow and vectorization can improve processing times.
+Whenever possible, avoid using explicit for loops.
+Here is an article describing the example shown in the course: https://www.geeksforgeeks.org/vectorization-in-python/
+
+The term broadcasting describes how numpy treats arrays with different shapes during arithmetic operations.
+Subject to certain constraints, the smaller array is “broadcast” across the larger array so that they have compatible shapes.
+Broadcasting provides a means of vectorizing array operations so that looping occurs in C instead of Python.
+It does this without making needless copies of data and usually leads to efficient algorithm implementations.
+Article describing broadcasting: https://numpy.org/doc/stable/user/basics.broadcasting.html
+
+<p align="center">
+<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/sigmoid_function.png" alt="Sigmoid Function" width="400"/>
+</p>
+<p align="center">
+Broadcasting Example
+</p>
