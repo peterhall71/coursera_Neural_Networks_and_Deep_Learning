@@ -1,5 +1,6 @@
 # Neural Networks and Deep Learning  
 ### deeplearning.ai
+### Andrew Ng
 <BR>
 
 ### Course Outline
