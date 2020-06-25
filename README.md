@@ -1,7 +1,5 @@
-<center>
 # Neural Networks and Deep Learning  
 ### deeplearning.ai  
-</center>
 <BR>
 
 ### Course Outline
