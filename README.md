@@ -44,7 +44,7 @@ Sigmoid Function
 </p>
 
 In logistic reggression we do not use a squared error loss functions du to local optimum issues in the optimization model.
-Instead we use L(yhat,y) = -ylog(yhat) + (1-y)log(1-yhat).
+Instead we use L(yhat,y) = -(ylog(yhat) + (1-y)log(1-yhat)).
 
 Gradient descent takes steps in the steepest direction iteratively to find the global optimum on the convex space of the cost function using w and b. J(w,b).
 In gradient descent alpha is the learning rate of the algorithm.
@@ -65,9 +65,13 @@ It does this without making needless copies of data and usually leads to efficie
 Article describing broadcasting: https://numpy.org/doc/stable/user/basics.broadcasting.html
 
 <p align="center">
-<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/BroadcastingExample.jpg"  alt="Sigmoid Function" width="400"/>
+<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/BroadcastingExample.jpg"  alt="Broadcasting Example" width="400"/>
 </p>
 <p align="center">
 Broadcasting Example
 </p>
+
+### Week 3
+
+#### Shallow Neural Networks
 
