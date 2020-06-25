@@ -45,3 +45,14 @@ In logistic regression y is equal to the sigmoid function of wTx + b. The sigmoi
 Sigmoid Function
 </p>
 
+In logistic reggression we do not use a squared error loss functions du to local optimum issues in the optimization model.
+Instead we use L(yhat,y) = -ylog(yhat) + (1-y)log(1-yhat).
+
+Gradient descent takes steps in the steepest direction iteratively to find the global optimum on the convex space of the cost function using w and b. J(w,b).
+In gradient descent alpha is the learning rate of the algorithm.
+
+You only need an intuitive understanding of calculus and derivatives to apply deep learning techniques, so the course spent some time reviewing these subjects.
+Derivatives are the slope of a function at any given point on the function. The slope is not necessarily constant across the function.
+
+#### Python and Vectorization
+
