@@ -93,8 +93,13 @@ Hyperbolic tangent function almost always works better than sigmoid.
 Similar to centering data on the mean of the sample, having the mean of the function as zero makes learning for the next layer easier.
 The exception is the output layer, since the output is between zero and one.
 
-One downside in both sigmoid and tanh function is if z is very larger or small the slope of the function is close to zero.
+One downside in both sigmoid and tanh function is if z is very large or small the slope of the function is close to zero.
 ReLU function is used in these cases since the slope is zero when z is negative and one when z is positive.
+Using this function your network will learn much faster than with the tanh or sigmoid.
+Leaky ReLU usually gives slightly better results than ReLU, but it is not used as often in practice.
+
+** Rule of Thumb:** for binary classification use sigmoid function for output layer and ReLU function for hidden layers.
+
 
 <p align="center">
 <img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/activation_functions.png"  alt="Activation Functions" width="600"/>
