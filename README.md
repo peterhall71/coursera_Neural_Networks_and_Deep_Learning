@@ -65,8 +65,9 @@ It does this without making needless copies of data and usually leads to efficie
 Article describing broadcasting: https://numpy.org/doc/stable/user/basics.broadcasting.html
 
 <p align="center">
-<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/sigmoid_function.png" alt="Sigmoid Function" width="400"/>
+<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/BroadcastingExample.jpg"  alt="Sigmoid Function" width="400"/>
 </p>
 <p align="center">
 Broadcasting Example
 </p>
+
