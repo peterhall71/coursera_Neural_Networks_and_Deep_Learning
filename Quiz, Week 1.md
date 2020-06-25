@@ -1,4 +1,4 @@
-## Quiz 1
+## Quiz 1: Introduction to Deep Learning
 
 #### Question 1: What does the analogy "AI is the new electricity" refer to?  
 Answer:  
