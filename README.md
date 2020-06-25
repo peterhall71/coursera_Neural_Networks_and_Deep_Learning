@@ -1,6 +1,6 @@
 # Neural Networks and Deep Learning  
-**deeplearning.ai** 
-Instructor: [Andrew Ng](http://www.andrewng.org/)
+**deeplearning.ai**  
+Instructor: [Andrew Ng](http://www.andrewng.org/)  
 <BR>
 
 ### Course Outline
@@ -76,6 +76,8 @@ Broadcasting Example
 
 #### Shallow Neural Networks
 
+Shallow neural networks have one hidden layer, when there are many hidden layers the network is refered to as deep.
+
 The neural network is made up of an input layer, a hidden layer, and an output layer.
 The hidden layer is called this because it is not seen in the training set. This is called a two layer neural network, you do not count the input layer.
 Each node in the hidden layer has two parameters (w,b). The output layer also has two parameters (w,b).
@@ -98,8 +100,12 @@ ReLU function is used in these cases since the slope is zero when z is negative 
 Using this function your network will learn much faster than with the tanh or sigmoid.
 Leaky ReLU usually gives slightly better results than ReLU, but it is not used as often in practice.
 
-** Rule of Thumb:** for binary classification use sigmoid function for output layer and ReLU function for hidden layers.
+**Rule of Thumb: **
+For binary classification use sigmoid function for output layer and ReLU function for hidden layers.  
 
+Sigmoid outputs a value between 0 and 1 which makes it a very good choice for binary classification.
+You can classify as 0 if the output is less than 0.5 and classify as 1 if the output is more than 0.5.
+It can be done with tanh as well but it is less convenient as the output is between -1 and 1.
 
 <p align="center">
 <img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/activation_functions.png"  alt="Activation Functions" width="600"/>
@@ -108,3 +114,6 @@ Leaky ReLU usually gives slightly better results than ReLU, but it is not used a
 Activation Functions
 </p>
 
+In neural networks you cannot initialize all the weights to zero, it will not work with gradient descent.
+They must be initialized to a small random variable, however, it is ok to initialize all of the b values to zero.
+It is best to randomize the values small because if they are very large and you are using a sigmoid or tanh function your slope can start off very small and learning will be slow.
