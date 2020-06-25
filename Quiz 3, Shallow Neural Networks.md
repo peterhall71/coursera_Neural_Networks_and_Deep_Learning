@@ -4,7 +4,7 @@
 Answer:  
 X is a matrix in which each column is one training example.  
 a^[2]_4 is the activation output by the 4th neuron of the 2nd layer  
-a^[2](12) denotes the activation vector of the 2nd layer for the 12th training example.  
+a^\[2\](12) denotes the activation vector of the 2nd layer for the 12th training example.  
 a^[2] denotes the activation vector of the 2nd layer.  
  
 #### Question 2: The tanh activation usually works better than sigmoid activation function for hidden units because the mean of its output is closer to zero, and so it centers the data better for the next layer. True/False? 
@@ -14,7 +14,7 @@ True
 #### Question 3: Which of these is a correct vectorized implementation of forward propagation for layer l, where 1 ≤ l ≤ L?
 Answer:  
 Z^[l]=W^[l]A^[l−1]+b^[l]  
-A^[l]=g^[l](Z^[l])  
+A^[l]=g^\[l](Z^[l])  
  
 #### Question 4: You are building a binary classifier for recognizing cucumbers (y=1) vs. watermelons (y=0). Which one of these activation functions would you recommend using for the output layer?
 Answer:  
@@ -44,7 +44,7 @@ The optimization algorithm will thus become slow.
 #### Question 9: Consider the following 1 hidden layer neural network. Which of the following statements are True? (Check all that apply).
 
 <p align="center">
-<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/quiz_neural_net.png" alt="One Hidden Layer Neural Net" width="400"/>
+<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/quiz_neural_net.png" alt="One Hidden Layer Neural Net" width="300"/>
 </p>
 
 Answer:  
