@@ -1,6 +1,6 @@
 # Neural Networks and Deep Learning  
-### deeplearning.ai
-### Andrew Ng
+### deeplearning.ai  
+### Andrew Ng   
 <BR>
 
 ### Course Outline
@@ -56,13 +56,13 @@ Derivatives are the slope of a function at any given point on the function. The 
 #### Python and Vectorization
 
 Vectorization is removing explicit for loops in code. Working with large datasets can be very slow and vectorization can improve processing times.
-Whenever possible, avoid using explicit for loops.
+Whenever possible, avoid using explicit for loops.  
 Here is an article describing the example shown in the course: https://www.geeksforgeeks.org/vectorization-in-python/
 
 The term broadcasting describes how numpy treats arrays with different shapes during arithmetic operations.
 Subject to certain constraints, the smaller array is “broadcast” across the larger array so that they have compatible shapes.
 Broadcasting provides a means of vectorizing array operations so that looping occurs in C instead of Python.
-It does this without making needless copies of data and usually leads to efficient algorithm implementations.
+It does this without making needless copies of data and usually leads to efficient algorithm implementations.  
 Article describing broadcasting: https://numpy.org/doc/stable/user/basics.broadcasting.html
 
 <p align="center">
@@ -75,4 +75,16 @@ Broadcasting Example
 ### Week 3
 
 #### Shallow Neural Networks
+
+The neural network is made up of an input layer, a hidden layer, and an output layer.
+The hidden layer is called this because it is not seen in the training set. This is called a two layer neural network, you do not count the input layer.
+Each node in the hidden layer has two parameters (w,b). The output layer also has two parameters (w,b).  
+Article describing the structure of artificial neural networks: https://becominghuman.ai/understanding-the-structure-of-neural-networks-1fa5bd17fef0
+
+<p align="center">
+<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/neural_network_stucture.PNG"  alt="Neural Network Structure" width="400"/>
+</p>
+<p align="center">
+Neural Network Structure
+</p>
 
