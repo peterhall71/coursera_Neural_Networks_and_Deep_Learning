@@ -1,6 +1,6 @@
 # Neural Networks and Deep Learning  
-### deeplearning.ai  
-### Andrew Ng   
+**deeplearning.ai** 
+Instructor: [Andrew Ng](http://www.andrewng.org/)
 <BR>
 
 ### Course Outline
@@ -82,9 +82,24 @@ Each node in the hidden layer has two parameters (w,b). The output layer also ha
 Article describing the structure of artificial neural networks: https://becominghuman.ai/understanding-the-structure-of-neural-networks-1fa5bd17fef0
 
 <p align="center">
-<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/neural_network_stucture.PNG"  alt="Neural Network Structure" width="400"/>
+<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/neural_network_structure.PNG"  alt="Neural Network Structure" width="400"/>
 </p>
 <p align="center">
 Neural Network Structure
+</p>
+
+Up until now we have been using the sigmoid activation function in the hidden layers.
+Hyperbolic tangent function almost always works better than sigmoid.
+Similar to centering data on the mean of the sample, having the mean of the function as zero makes learning for the next layer easier.
+The exception is the output layer, since the output is between zero and one.
+
+One downside in both sigmoid and tanh function is if z is very larger or small the slope of the function is close to zero.
+ReLU function is used in these cases since the slope is zero when z is negative and one when z is positive.
+
+<p align="center">
+<img src="https://github.com/peterhall71/coursera_Neural_Networks_and_Deep_Learning/blob/master/images/activation_functions.png"  alt="Activation Functions" width="600"/>
+</p>
+<p align="center">
+Activation Functions
 </p>
 
