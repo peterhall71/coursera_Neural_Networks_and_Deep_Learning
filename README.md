@@ -117,3 +117,18 @@ Activation Functions
 In neural networks you cannot initialize all the weights to zero, it will not work with gradient descent.
 They must be initialized to a small random variable, however, it is ok to initialize all of the b values to zero.
 It is best to randomize the values small because if they are very large and you are using a sigmoid or tanh function your slope can start off very small and learning will be slow.
+
+### Week 4
+
+#### Deep Neural Network
+
+Deep neural networks have many hidden layers in their structure.
+The early layers of a deep neural network can look for simpler abstractions, while the later layers can combine those features for more complex analysis.
+
+The parameters of the network are W and b, however there are other aspects we need to define. These are the hyperparameters.
+A few of them are; learning rate (alpha), iterations, number of hidden layers, number of hidden units, and choice of activation function.
+Others are; momentum, mini batch size, regular junctions, etc.
+
+In choosing these hyperparameters you really have to try many values and see how it works.
+
+
