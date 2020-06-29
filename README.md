@@ -17,7 +17,7 @@ Week 4: Deep Neural Networks
 Deep learning means training neural networks.
 Simple linear regression is the most basic neural network, with the node being the regression equation having an input and output.
 
-Advertising, image processing, and language processing are some of th biggest applications.
+Advertising, image processing, and language processing are some of the biggest applications.
 Image applications often use convolutional neural networks (CNN).
 Sequence data (time series) often use recurring neural networks (RNN).
 Data table is structured data, while image/audio is unstructured data.
